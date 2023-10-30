@@ -1,6 +1,6 @@
-const { Shape } = require('./shapes.js');
+const { Circle } = require('./shapes.js');
 
-test('Shape class instantiation', () => {
-    const shape = new Shape('blue');
-    expect(shape.color).toEqual('blue');
+test('Circle class instantiation', () => {
+    const circle = new Circle('blue');
+    expect(circle.color).toEqual('blue');
 });
